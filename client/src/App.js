@@ -10,7 +10,7 @@ function App() {
     <div className="parallax-container">
       <div className="parallax-layer">
         <Parallax y={[-20, 20]} tagOuter="div">
-          Layer 1
+          Foglia
         </Parallax>
       </div>
       <div className="parallax-layer">

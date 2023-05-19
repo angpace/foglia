@@ -1,10 +1,4 @@
 
-body {
-  text-align: center;
-  font-family: antonia-variable, sans-serif;
-  font-style: normal;
-          font-variation-settings: "opsz" 8, "wght" 200;
-}
 
 .parallax-container {
   height: 100vh;
@@ -14,9 +8,10 @@ body {
 .parallax-layer {
   height: 100vh;
   display: flex;
+  padding: 10%;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
-  color: #8d1818;
+  font-size: 2rem;
+  color: #483d3d;
 }
 

@@ -1,11 +1,31 @@
-import logo from './logo.svg';
+import { Parallax } from 'react-scroll-parallax';
 import './App.css';
+import About from './components/About';
+import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax'
+
 
 function App() {
   return (
-   <div>
-    <h1>Hi</h1>
+    <ParallaxProvider>
+    <div className="parallax-container">
+      <div className="parallax-layer">
+        <Parallax y={[-20, 20]} tagOuter="div">
+          Layer 1
+        </Parallax>
+      </div>
+      <div className="parallax-layer">
+        <Parallax y={[-30, 30]} tagOuter="div">
+          <About/>
+        </Parallax>
+      </div>
+      <div className="parallax-layer">
+        <Parallax y={[-40, 40]} tagOuter="div">
+          Layer 3
+        </Parallax>
+      </div>
     </div>
+  </ParallaxProvider>
+
   );
 }
 

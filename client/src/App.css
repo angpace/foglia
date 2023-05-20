@@ -1,17 +1,47 @@
 
-
 .parallax-container {
-  height: 100vh;
+  height: 105vh;
   overflow: auto;
 }
 
 .parallax-layer {
   height: 100vh;
   display: flex;
-  padding: 10%;
+  padding: 20%;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
   color: #483d3d;
+}
+
+.top-banner-text,
+.hidden {
+  font-family: "Magda", "sans-serif";
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  background-color:  white;
+  color:rgb(173, 104, 104);
+}
+
+.top-banner::before {
+  content: "Foglia, NYC.";
+  animation: animate infinite 7s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+
+  0% {
+    content: "Foglia, NYC.";
+  }
+
+  45% {
+    content: "Laminated Loaf, Order now.";
+  }
+
+  75% {
+    content: "Hi there, kombucha anyone?";
+  }
 }
 

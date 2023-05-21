@@ -3,8 +3,8 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: pink;
-    height: 80px;
+    background: whitesmoke;
+    height: 60px;
     /* margin-top: -80px; */
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ padding: 0 24px;
 max-width: 1100px;
 `
 export const NavLogo = styled(LinkR)`
-color: whitesmoke;
+color: brown;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -48,9 +48,9 @@ display: none;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     cursor:pointer;
-    color: #fff
+    color: brown;
 }
 `
 export const NavMenu = styled.ul`
@@ -65,20 +65,20 @@ margin-right: -22px;
 }
 `
 export const NavItem = styled.li`
-height: 80px;
+height: 60px;
 `
 export const NavLinks = styled(LinkS)`
-color: #000;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
-height: 100%;
+height: 110%;
 cursor: pointer;
 
 &:active {
     //this it the highlight whne active
-    border-bottom: 3px solid #01bf71;
+    color: brown;
+    border-bottom: 2px solid brown;
 }
 `
 export const NavBtn = styled.nav`
@@ -92,10 +92,10 @@ align-items: center;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: #01b571;
+background: whitesmoke;
 white-space: nowrap;
-padding: 10px 22px;
-color: #101606;
+padding: 10px 20px;
+color: brown;
 font-size: 16px;
 outline: none;
 border: none;
@@ -105,7 +105,8 @@ text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
+    text-decoration-color: brown;
     background: #fff;
-    color: #101606;
+    color: brown;
 }
 `

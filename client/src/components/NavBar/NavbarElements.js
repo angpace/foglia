@@ -4,9 +4,9 @@ import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
     background: #f5f5f5;
-    opacity: 70%;
+    opacity: 80%;
     height: 60px;
-    /* margin-top: -80px; */
+    /* margin-top: -60px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,10 +30,10 @@ padding: 0 24px;
 max-width: 1100px;
 `
 export const NavLogo = styled(LinkR)`
-color: brown;
+color: #d9b99b;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
+font-size: 2.2rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
@@ -49,9 +49,9 @@ display: none;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     cursor:pointer;
-    color: brown;
+    color: #d9b99b;
 }
 `
 export const NavMenu = styled.ul`
@@ -78,8 +78,8 @@ cursor: pointer;
 
 &:active {
     //this it the highlight whne active
-    color: brown;
-    border-bottom: 2px solid brown;
+    color: #d9b99b;
+    border-bottom: 2px solid #d9b99b;
 }
 `
 export const NavBtn = styled.nav`
@@ -96,7 +96,7 @@ border-radius: 50px;
 background: whitesmoke;
 white-space: nowrap;
 padding: 10px 20px;
-color: brown;
+color: #d9b99b;
 font-size: 16px;
 outline: none;
 border: none;
@@ -108,6 +108,6 @@ text-decoration: none;
     transition: all 0.2s ease-in-out;
     text-decoration-color: brown;
     background: #fff;
-    color: brown;
+    color: #d9b99b;
 }
 `

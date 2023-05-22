@@ -9,7 +9,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #0d0d0d;
+background: #eed9c4;
 display: grid;
 align-items: center;
 top: 0;
@@ -48,17 +48,16 @@ text-align: center;
 export const SidebarLink = styled(LinkS)`
 display: flex;
 align-items: center;
-justify-content: center;
+/* justify-content: center; */
 font-size: 1.5rem;
-text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
 text-decoration: none;
-color: #fff;
+color: white;
 cursor: pointer;
 
 &:hover {
-    color: #01bf71;
+    color: #d9b66b;
     transition: 0.2s ease-in-out;
 }
 `
@@ -69,10 +68,10 @@ justify-content: center;
 `
 export const SidebarRoute = styled(LinkR)`
 border-radius: 50px;
-background: #01bf71;
+background: white;
 white-space: nowrap;
-padding: 16px 64px;
-color: #010606;
+padding: 10px 50px;
+color: #eed9c4;
 font-size: 16px;
 outline: none;
 border: none;
@@ -83,6 +82,6 @@ text-decoration: none;
 &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #d9b66b;
 }
 `

@@ -27,7 +27,7 @@ export const homeObjTwo = {
     description: 'Started in Sunnyside, Queens, shipping to wherever.',
 
     buttonLabel: 'Learn More',
-    imgStart: true,
+    imgStart: false,
     img: require('../../images/svg-4.svg').default,
     alt: 'kombucha',
     dark: true,

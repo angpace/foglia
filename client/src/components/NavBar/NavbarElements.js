@@ -37,7 +37,7 @@ font-size: 2.2rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
-/* font-weight: light; */
+font-weight: light;
 text-decoration: none;
 `
 export const MobileIcon = styled.div`
@@ -73,7 +73,7 @@ display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
-height: 110%;
+height: 100%;
 cursor: pointer;
 
 &:active {

@@ -12,9 +12,9 @@ export const homeObjOne = {
     imgStart: true,
     img: require('../../images/svg-1.svg').default,
     alt: 'kombucha',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: false,
 }
 
 export const homeObjTwo = {
@@ -31,7 +31,7 @@ export const homeObjTwo = {
     img: require('../../images/svg-4.svg').default,
     alt: 'kombucha',
     dark: true,
-    primary: false,
+    primary: true,
     darkText: false
 }
 
@@ -49,6 +49,6 @@ export const homeObjThree = {
     img: require('../../images/svg-3.svg').default,
     alt: 'kombucha',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: false
 }

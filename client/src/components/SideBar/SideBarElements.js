@@ -48,8 +48,8 @@ text-align: center;
 export const SidebarLink = styled(LinkS)`
 display: flex;
 align-items: center;
-/* justify-content: center; */
-font-size: 1.5rem;
+justify-content: center;
+font-size: 1.7rem;
 list-style: none;
 transition: 0.2s ease-in-out;
 text-decoration: none;

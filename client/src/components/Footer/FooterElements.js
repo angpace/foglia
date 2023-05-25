@@ -57,7 +57,7 @@ margin-bottom: 0.5rem;
 font-size: 14px;
 
 &:hover{
-    color: #01bf71;
+    color: #d9b66b;
     transition: 0.3s ease-out
 }
 `

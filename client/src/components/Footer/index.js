@@ -16,34 +16,33 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">FAQs</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                        <FooterLinkTitle>Shop</FooterLinkTitle>
+                            <FooterLink to="/">Kombucha</FooterLink>
+                            <FooterLink to="/">Bakery</FooterLink>
+                            <FooterLink to="/">Pooch</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">FAQs</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                        <FooterLinkTitle>About</FooterLinkTitle>
+                            <FooterLink to="/">Chef Angela</FooterLink>
+                            <FooterLink to="/">The Kombucha</FooterLink>
+                            <FooterLink to="/">The Crossaint Loaf</FooterLink>
+                            <FooterLink to="/">Corporate Orders</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">FAQs</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                        <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                            <FooterLink to="/">FAQS</FooterLink>
+                            <FooterLink to="/">Careers</FooterLink>
+                            <FooterLink to="/">Press</FooterLink>
+                            <FooterLink to="/">Terms of Service</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About us</FooterLinkTitle>
-                            <FooterLink to="/signin">How it Works</FooterLink>
-                            <FooterLink to="/signin">FAQs</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                        <FooterLinkTitle>Socials</FooterLinkTitle>
+                            <FooterLink to="/">Instagram</FooterLink>
+                            <FooterLink to="/">Facebook</FooterLink>
+                            <FooterLink to="/">Youtube</FooterLink>
+                            <FooterLink to="/">Tiktok</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>

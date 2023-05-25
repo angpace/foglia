@@ -12,7 +12,7 @@ export const homeObjOne = {
     imgStart: true,
     img: require('../../images/svg-1.svg').default,
     alt: 'kombucha',
-    dark: false,
+    dark: true,
     primary: false,
     darkText: false,
 }
@@ -30,7 +30,7 @@ export const homeObjTwo = {
     imgStart: false,
     img: require('../../images/svg-4.svg').default,
     alt: 'kombucha',
-    dark: true,
+    dark: false,
     primary: true,
     darkText: false
 }

@@ -18,6 +18,6 @@ transition: all 0.2s ease-in-out;
 
 &:hover{
     transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ? '#fff' :'whitesmoke'  )};
+    background: ${({primary}) => (primary ? 'whitesmoke' :'whitesmoke'  )};
 }
 `

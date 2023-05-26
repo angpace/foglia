@@ -19,7 +19,7 @@ const HeroSection = () => {
           <HeroH1>Welcome to Foglia</HeroH1>
           <HeroP>Redefine Bakery.</HeroP>
           <HeroBtnWrapper>
-            <Button to="shop" onMouseEnter={onHover} onMouseLeave={onHover} primary={true}
+            <Button to="shop" onMouseEnter={onHover} onMouseLeave={onHover} primary={true} smooth={true} duration={500} spy={true} exact='true' offset={-60}
             >Check it out. {hover? <ArrowForward /> : <ArrowRight />}</Button>
           </HeroBtnWrapper>
         </HeroContent>

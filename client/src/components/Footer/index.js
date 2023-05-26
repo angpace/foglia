@@ -34,19 +34,19 @@ const Footer = () => {
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>About</FooterLinkTitle>
-                            <FooterLink to="/">Chef Angela</FooterLink>
+                            <FooterLink to="/">The Team</FooterLink>
                             <FooterLink to="/">The Kombucha</FooterLink>
                             <FooterLink to="/">The Crossaint Loaf</FooterLink>
-                            <FooterLink to="/">Corporate Orders</FooterLink>
+                            {/* <FooterLink to="/">Corporate Orders</FooterLink> */}
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Contact Us</FooterLinkTitle>
                             <FooterLink to="/">FAQS</FooterLink>
-                            <FooterLink to="/">Careers</FooterLink>
+                            {/* <FooterLink to="/">Careers</FooterLink> */}
                             <FooterLink to="/">Press</FooterLink>
-                            <FooterLink to="/">Terms of Service</FooterLink>
+                            {/* <FooterLink to="/">Terms of Service</FooterLink> */}
                     </FooterLinkItems>
                     {/* <FooterLinkItems>
                         <FooterLinkTitle>Socials</FooterLinkTitle>
@@ -67,15 +67,15 @@ const Footer = () => {
                         <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                             <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                        <SocialIconLink href="//www.instagram.com/fogliabrand/" target="_blank" aria-label="Instagram">
                             <FaInstagram/>
                         </SocialIconLink>
                         <SocialIconLink href="/" target="_blank" aria-label="Youtube">
                             <FaYoutube />
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                        {/* <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                             <FaTwitter />
-                        </SocialIconLink>
+                        </SocialIconLink> */}
                     </SocialIcons>
                 </SocialMediaWrap>
             </SocialMedia>

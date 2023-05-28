@@ -5,6 +5,7 @@ import SigninPage from './pages/signin';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 import { useState } from 'react';
+import About from './pages/about';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/signin" element={<SigninPage/>}></Route>
+        <Route path="/about/:about_id" element={<About/>}></Route>
    </Routes>
   </Router>
   );

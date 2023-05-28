@@ -12,25 +12,27 @@ import { ServicesContainer,
  } from './ServicesElements'
 
 const Services = () => {
+
+
+
   return (
     <ServicesContainer id={'shop'}>
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Shop</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard>
+                <ServicesCard >
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Reduce Expenses.</ServicesH2>
-                    <ServicesP>wE HELP DO THIS AND THAT</ServicesP>
+                    <ServicesH2>Kombucha.</ServicesH2>
+                    <ServicesP>Green tea with fruit puree and probiotics.</ServicesP>
                 </ServicesCard>
-                <ServicesCard>
+                <ServicesCard >
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Virtual.</ServicesH2>
-                    <ServicesP>Hello are we software engineers yet</ServicesP>
+                    <ServicesH2>Bakery.</ServicesH2>
+                    <ServicesP>The crossiant loaf is here!</ServicesP>
                 </ServicesCard>
-                <ServicesCard>
+                <ServicesCard >
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>Reduce Expenses.</ServicesH2>
-                    <ServicesP>Help me!
-                        bee boo bop bop
+                    <ServicesH2>Pooch.</ServicesH2>
+                    <ServicesP>Dog treats approved by Nori herself.
                     </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>

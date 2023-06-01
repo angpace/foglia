@@ -1,6 +1,6 @@
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter} from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa'
 import { 
     FooterContainer,
     FooterWrap,
@@ -34,9 +34,9 @@ const Footer = () => {
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>About</FooterLinkTitle>
-                            <FooterLink to="/about/the-team">The Team</FooterLink>
-                            <FooterLink to="/about/the-kombucha">The Kombucha</FooterLink>
-                            <FooterLink to="/about/the-croissant-loaf">The Crossaint Loaf</FooterLink>
+                            <FooterLink to="/about/the-team" onClick={toggleHome}>The Team</FooterLink>
+                            <FooterLink to="/about/the-kombucha" onClick={toggleHome}>The Kombucha</FooterLink>
+                            <FooterLink to="/about/the-croissant-loaf" onClick={toggleHome}>The Crossaint Loaf</FooterLink>
                             {/* <FooterLink to="/">Corporate Orders</FooterLink> */}
                     </FooterLinkItems>
                 </FooterLinksWrapper>
@@ -48,13 +48,6 @@ const Footer = () => {
                             <FooterLink to="/">Press</FooterLink>
                             {/* <FooterLink to="/">Terms of Service</FooterLink> */}
                     </FooterLinkItems>
-                    {/* <FooterLinkItems>
-                        <FooterLinkTitle>Socials</FooterLinkTitle>
-                            <FooterLink to="/">Instagram</FooterLink>
-                            <FooterLink to="/">Facebook</FooterLink>
-                            <FooterLink to="/">Youtube</FooterLink>
-                            <FooterLink to="/">Tiktok</FooterLink>
-                    </FooterLinkItems> */}
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>

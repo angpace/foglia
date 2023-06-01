@@ -5,23 +5,9 @@ import { Button } from 'react-scroll';
 
 const About = () => {
     const { about_id } = useParams();
-  //   export const homeObjOne = {
-  //     id: 'about',
-  //     lightBg: false,
-  //     lightText: false,
-  //     lightTextDesc: true,
-  //     topLine: 'On our way!',
-  //     headline: 'Delivery Now Available.',
-  //     description: 'Started in our home in Sunnyside, Queens, shipping to wherever you call home.',
-  
-  //     buttonLabel: 'Take a Look',
-  //     imgStart: true,
-  //     img: require('../../images/svg-1.svg').default,
-  //     alt: 'kombucha',
-  //     dark: true,
-  //     primary: false,
-  //     darkText: false,
-  // }
+
+
+
     const aboutData = {
         "the-team": {
           title: "The Team",
@@ -69,7 +55,7 @@ const About = () => {
             <Heading lightText={details.lightText}>{details.title}</Heading>
             <Subtitle darkText={details.darkText}>{details.description}</Subtitle>
             <BtnWrap>
-              <Button to="/"
+              <Button 
               smooth={true}
               duration={500}
               spy={true}

@@ -30,7 +30,7 @@ const Footer = () => {
                         <FooterLinkTitle>Shop</FooterLinkTitle>
                             <FooterLink to="/shop/kombucha">Kombucha</FooterLink>
                             <FooterLink to="/shop/croissant">Bakery</FooterLink>
-                            <FooterLink to="/pooch">Pooch</FooterLink>
+                            <FooterLink to="/shop/pooch">Pooch</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>About</FooterLinkTitle>

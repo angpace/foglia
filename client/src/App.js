@@ -2,9 +2,8 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages';
 import SigninPage from './pages/signin';
-import NavBar from './components/NavBar';
-import SideBar from './components/SideBar';
-import { useState } from 'react';
+// import NavBar from './components/NavBar';
+// import SideBar from './components/SideBar';
 import Footer from './components/Footer'
 import About from './pages/About';
 import Shop from './pages/Shop';
@@ -13,16 +12,14 @@ import Shop from './pages/Shop';
 
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
 
-  const toggle = () => {
-      setIsOpen(!isOpen)
-  }
+  // const toggle = () => {
+  //     setIsOpen(!isOpen)
+  // }
 
   return (
   <Router>
-    <SideBar isOpen={isOpen} toggle={toggle}/>
-    <NavBar toggle={toggle}/>
     <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/signin" element={<SigninPage/>}></Route>

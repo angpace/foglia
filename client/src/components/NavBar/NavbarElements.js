@@ -30,7 +30,7 @@ padding: 0 24px;
 max-width: 1100px;
 `
 export const NavLogo = styled(LinkR)`
-color: #d9b99b;
+color: #000;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 2.2rem;
@@ -51,7 +51,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor:pointer;
-    color: #d9b99b;
+    color: #000;
 }
 `
 export const NavMenu = styled.ul`
@@ -69,7 +69,7 @@ export const NavItem = styled.li`
 height: 60px;
 `
 export const NavLinks = styled(LinkS)`
-color: #d9b66b;
+color: #000;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -97,7 +97,7 @@ border-radius: 50px;
 background: whitesmoke;
 white-space: nowrap;
 padding: 10px 20px;
-color: #d9b99b;
+color: #000;
 font-size: 16px;
 outline: none;
 border: none;

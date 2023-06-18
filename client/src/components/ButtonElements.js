@@ -6,7 +6,7 @@ border-radius: 50px;
 background: ${({primary}) => (primary ? '#fff' : "#eed9c4")};
 white-space: nowrap;
 padding: ${({big}) => (big? '14px 48px' : '12px 30px')};
-color: ${({dark}) => (dark? '#010606' : '#d9b66b')};
+color: ${({dark}) => (dark? '#000' : '#eb906e')};
 font-size: ${({fontBig}) => (fontBig? '20px' : '16px')};
 outline: none;
 border: none;

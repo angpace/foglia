@@ -28,9 +28,9 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Shop</FooterLinkTitle>
-                            <FooterLink to="/">Kombucha</FooterLink>
-                            <FooterLink to="/">Bakery</FooterLink>
-                            <FooterLink to="/">Pooch</FooterLink>
+                            <FooterLink to="/shop/kombucha">Kombucha</FooterLink>
+                            <FooterLink to="/shop/croissant">Bakery</FooterLink>
+                            <FooterLink to="/pooch">Pooch</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>About</FooterLinkTitle>

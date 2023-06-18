@@ -7,6 +7,7 @@ import SideBar from './components/SideBar';
 import { useState } from 'react';
 import Footer from './components/Footer'
 import About from './pages/About';
+import Shop from './pages/Shop';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/signin" element={<SigninPage/>}></Route>
         <Route path="/about/:about_id" element={<About/>}></Route>
+        <Route path="/shop/:shop_id" element={<Shop/>}></Route>
    </Routes>
    <Footer/>
   </Router>

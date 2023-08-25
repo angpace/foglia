@@ -59,10 +59,10 @@ const About = () => {
               smooth={true}
               duration={500}
               spy={true}
-              exact={true}
+              exact="true"
               offset={-60}
-              primary={true}
-              dark={false}
+              primary={"true"}
+              dark={"false"}
 
               ></Button>
             </BtnWrap> 
